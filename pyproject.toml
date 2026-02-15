@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sppt"
+version = "0.1.0"
+description = "Spatial Point Pattern Test for Aggregated Data"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name = "Yunus Serhat Bıçakçı"},
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "scipy>=1.11.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yunusserhat/sppt"
+Repository = "https://github.com/yunusserhat/sppt"
+Issues = "https://github.com/yunusserhat/sppt/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "ruff>=0.0.290",
+    "geopandas>=1.0.0",
+    "pyarrow>=14.0.0",
+]
+vignette = [
+    "rmarkdown",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sppt*"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]  # Line too long, handled by ruff format
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

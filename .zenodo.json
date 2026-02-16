@@ -1,0 +1,20 @@
+{
+  "title": "sppt: Spatial Point Pattern Test for Aggregated Data",
+  "description": "Python reimplementation of the spatial point pattern test for aggregated spatial unit count data.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Bıçakçı, Yunus Serhat",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "keywords": [
+    "spatial analysis",
+    "point pattern",
+    "bootstrap",
+    "crime analysis",
+    "python"
+  ],
+  "access_right": "open"
+}

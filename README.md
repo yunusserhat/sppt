@@ -2,7 +2,7 @@
 
 <!-- badges: start -->
 [![PyPI version](https://img.shields.io/pypi/v/sppt.svg)](https://pypi.org/project/sppt/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.00000000.svg)](https://doi.org/10.5281/zenodo.00000000)
+[![DOI](https://zenodo.org/badge/1158746832.svg)](https://doi.org/10.5281/zenodo.18664256)
 <!-- badges: end -->
 
 The `sppt` package performs spatial pattern point tests on aggregated count data using bootstrap resampling. It compares spatial distributions between variables and calculates S-Index metrics to quantify spatial pattern overlap.
@@ -239,4 +239,5 @@ MIT License - see LICENSE file for details
 
 - GitHub: [yunusserhat](https://github.com/yunusserhat)
 - Repository: [yunusserhat/sppt](https://github.com/yunusserhat/sppt)
+
 - Issues: [Report a bug](https://github.com/yunusserhat/sppt/issues)

@@ -1,0 +1,44 @@
+{
+    "title": "sppt: Spatial Point Pattern Test for Aggregated Data (Python)",
+    "description": "A Python implementation of the Spatial Point Pattern Test (SPPT) for aggregated count data. Uses bootstrap resampling with sparse-matrix acceleration to compare spatial distributions between variables and calculates S-Index metrics to quantify spatial pattern overlap. Based on the original R package sppt.aggregated.data by Martin A. Andresen.",
+    "creators": [
+        {
+            "name": "Bıçakçı, Yunus Serhat",
+            "orcid": "",
+            "affiliation": ""
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Andresen, Martin A.",
+            "type": "Other",
+            "affiliation": ""
+        }
+    ],
+    "keywords": [
+        "spatial-analysis",
+        "bootstrap",
+        "s-index",
+        "crime-analysis",
+        "spatial-statistics",
+        "sppt",
+        "point-pattern-test",
+        "geopandas",
+        "python"
+    ],
+    "license": "MIT",
+    "upload_type": "software",
+    "access_right": "open",
+    "related_identifiers": [
+        {
+            "identifier": "https://pypi.org/project/sppt/",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+        },
+        {
+            "identifier": "https://github.com/martin-a-andresen/sppt.aggregated.data",
+            "relation": "isDerivedFrom",
+            "scheme": "url"
+        }
+    ]
+}

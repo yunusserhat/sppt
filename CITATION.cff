@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: "sppt: Spatial Point Pattern Test for Aggregated Data (Python)"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Bıçakçı
+    given-names: Yunus Serhat
+repository-code: "https://github.com/yunusserhat/sppt"
+url: "https://pypi.org/project/sppt/"
+license: MIT
+version: 0.1.0
+date-released: "2026-02-28"
+keywords:
+  - spatial-analysis
+  - bootstrap
+  - s-index
+  - crime-analysis
+  - spatial-statistics
+  - sppt
+  - python
+abstract: >-
+  A Python implementation of the Spatial Point Pattern Test (SPPT) for
+  aggregated count data. Uses bootstrap resampling with sparse-matrix
+  acceleration to compare spatial distributions between variables and
+  calculates S-Index metrics to quantify spatial pattern overlap.
+  Based on the original R package sppt.aggregated.data by Martin A. Andresen.
+references:
+  - type: software
+    title: "sppt.aggregated.data: Spatial Point Pattern Test for Aggregated Data (R)"
+    authors:
+      - family-names: Andresen
+        given-names: Martin A.
+    repository-code: "https://github.com/martin-a-andresen/sppt.aggregated.data"
+    year: 2025

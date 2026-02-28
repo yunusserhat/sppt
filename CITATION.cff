@@ -11,7 +11,7 @@ repository-code: "https://github.com/yunusserhat/sppt-python"
 url: "https://pypi.org/project/sppt/"
 doi: "10.5281/zenodo.18813171"
 license: MIT
-version: 0.1.1
+version: 0.1.2
 date-released: "2026-02-28"
 keywords:
   - spatial-analysis

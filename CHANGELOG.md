@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.2 (2026-02-28)
+
+### Changed
+
+- Renamed GitHub repository to `sppt-python` for Zenodo compatibility
+- Updated all repository URLs (Colab links, badges, citation)
+
+---
+
 ## 0.1.1 (2026-02-28)
 
 ### Fixes

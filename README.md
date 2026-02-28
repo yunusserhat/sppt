@@ -1,7 +1,7 @@
 # sppt — Spatial Point Pattern Test for Aggregated Data
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18813433.svg)](https://doi.org/10.5281/zenodo.18813433)
-[![PyPI version](https://badge.fury.io/py/sppt.svg)](https://badge.fury.io/py/sppt)
+[![PyPI version](https://img.shields.io/pypi/v/sppt.svg)](https://pypi.org/project/sppt/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yunusserhat/sppt-python/blob/main/notebooks/01_quickstart.ipynb)

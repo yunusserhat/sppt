@@ -9,6 +9,10 @@
 A Python implementation of the **Spatial Point Pattern Test (SPPT)** for aggregated count data. Uses bootstrap resampling to compare spatial distributions between variables and calculates **S-Index** metrics to quantify spatial pattern overlap.
 
 > **Based on the original R package [`sppt.aggregated.data`](https://github.com/martin-a-andresen/sppt.aggregated.data) by [Martin A. Andresen](https://github.com/martin-a-andresen).** This Python port faithfully reimplements the statistical methods, algorithms, and outputs of the R version.
+>
+> A detailed discussion of the spatial point pattern test is available in an open access journal:
+>
+> Andresen, M.A. (2016). An area-based nonparametric spatial point pattern test: the test, its applications, and the future. *Methodological Innovations*, 9, Article 12. [DOI: 10.1177/2059799116630659](https://doi.org/10.1177/2059799116630659)
 
 ---
 
@@ -264,6 +268,16 @@ If you use this package in your research, please cite both the Python package an
   title   = {sppt.aggregated.data: Spatial Point Pattern Test for Aggregated Data (R)},
   year    = {2025},
   url     = {https://github.com/martin-a-andresen/sppt.aggregated.data}
+}
+
+@article{andresen2016area,
+  author  = {Andresen, Martin A.},
+  title   = {An area-based nonparametric spatial point pattern test: the test, its applications, and the future},
+  journal = {Methodological Innovations},
+  volume  = {9},
+  pages   = {Article 12},
+  year    = {2016},
+  doi     = {10.1177/2059799116630659}
 }
 ```
 

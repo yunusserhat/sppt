@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.1.5 (2026-02-28)
+
+### Added
+
+- Added Andresen (2016) journal article reference to README and CITATION.cff
+
+### Changed
+
+- Updated PyPI project description (README sync)
+
+---
+
 ## 0.1.4 (2026-02-28)
 
 ### Changed

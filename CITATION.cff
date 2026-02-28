@@ -11,7 +11,7 @@ repository-code: "https://github.com/yunusserhat/sppt-python"
 url: "https://pypi.org/project/sppt/"
 doi: "10.5281/zenodo.18813433"
 license: MIT
-version: 0.1.4
+version: 0.1.5
 date-released: "2026-02-28"
 keywords:
   - spatial-analysis
@@ -35,3 +35,13 @@ references:
         given-names: Martin A.
     repository-code: "https://github.com/martin-a-andresen/sppt.aggregated.data"
     year: 2025
+  - type: article
+    title: "An area-based nonparametric spatial point pattern test: the test, its applications, and the future"
+    authors:
+      - family-names: Andresen
+        given-names: Martin A.
+    journal: "Methodological Innovations"
+    volume: 9
+    article-number: 12
+    year: 2016
+    doi: "10.1177/2059799116630659"

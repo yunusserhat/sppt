@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.1.1 (2026-02-28)
+
+### Fixes
+
+- Fixed Colab notebooks — converted from VS Code XML format to valid Jupyter JSON
+- Fixed PyPI badge (switched to `img.shields.io`)
+- Fixed CI workflow to trigger on version tags
+- Added `environment: pypi` to CI publish job for Trusted Publisher support
+
+### Added
+
+- Zenodo integration with DOI: [10.5281/zenodo.18813171](https://doi.org/10.5281/zenodo.18813171)
+- `CITATION.cff` for GitHub "Cite this repository" support
+- `.zenodo.json` metadata for automatic Zenodo archiving
+- Zenodo GitHub Actions workflow for automated uploads on release
+- ORCID and affiliation metadata
+
+---
+
 ## 0.1.0 (2026-02-28)
 
 ### Initial Release

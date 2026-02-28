@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.3 (2026-02-28)
+
+### Changed
+
+- Updated Zenodo DOI to 10.5281/zenodo.18813433
+- Clean release for PyPI + Zenodo sync
+
+---
+
 ## 0.1.2 (2026-02-28)
 
 ### Changed

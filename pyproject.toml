@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sppt"
-version = "0.1.2"
+version = "0.1.3"
 description = "Spatial Point Pattern Test (SPPT) for Aggregated Data — bootstrap-based spatial distribution comparison"
 readme = "README.md"
 license = "MIT"

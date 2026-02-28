@@ -9,9 +9,9 @@ authors:
     affiliation: "Marmara University"
 repository-code: "https://github.com/yunusserhat/sppt-python"
 url: "https://pypi.org/project/sppt/"
-doi: "10.5281/zenodo.18813171"
+doi: "10.5281/zenodo.18813433"
 license: MIT
-version: 0.1.2
+version: 0.1.3
 date-released: "2026-02-28"
 keywords:
   - spatial-analysis

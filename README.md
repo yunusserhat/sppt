@@ -1,3 +1,5 @@
+
+
 # sppt — Spatial Point Pattern Test for Aggregated Data
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18813433.svg)](https://doi.org/10.5281/zenodo.18813433)
@@ -111,6 +113,7 @@ The **Robust S-Index** excludes spatial units where all variables are zero.
 | `group_col` | `"group"` | Column identifying spatial units |
 | `count_col` | — | Column name(s) with counts. Pass `["base", "test"]` for bivariate |
 | `B` | `200` | Number of bootstrap samples |
+| `new_col` | `None` | Output column-name prefix(es). Defaults to `count_col` names. |
 | `seed` | `None` | Random seed for reproducibility |
 | `conf_level` | `0.95` | Confidence level for intervals |
 | `check_overlap` | `False` | Compute overlap + S-Index statistics |
